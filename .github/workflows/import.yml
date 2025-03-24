@@ -4,18 +4,19 @@ on:
   workflow_dispatch:
 
 jobs:
-  import-issues:
+  import:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Create Issues from CSV
+      - name: Create issues from CSV
         uses: peter-evans/create-issue-from-file@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          repository: MonDave101/project-dxts
-          title: ${{ fromJson(inputs.data).Title }}
-          body: ${{ fromJson(inputs.data).Body }}
-          milestone: ${{ fromJson(inputs.data).Milestone }}
+          repository: MonDave101/project-dxts  # Replace this with your actual repo path
           data-file: DXTS_Issues_List.csv
+          format: csv
+          title-column: Title
+          body-column: Body
+          milestone-column: Milestone
