@@ -1,0 +1,111 @@
+Title,Body,Milestone
+Complete JavaScript Basics,"Learn and practice JavaScript fundamentals.
+
+- Variables and Data Types
+- Functions and Scope
+- Conditionals and Loops
+- Arrays and Objects
+- Practice 3 coding katas
+- Mini Project: JavaScript To-Do App",1 - Programming Foundations
+Complete Python Basics,"Learn and practice Python fundamentals.
+
+- Variables and Data Types
+- Functions, Loops, and Conditionals
+- Exceptions and File I/O
+- Practice with Real Python tutorials
+- Mini Project: CLI News Reader App",1 - Programming Foundations
+Learn Git Basics,"Understand how to use Git for version control.
+
+- Learn `git init`, `add`, `commit`, `push`
+- Create branches and merge changes
+- Write clear commit messages",2 - Git & GitHub
+Create DXTS GitHub Repo & Project Board,"Set up GitHub repo for DXTS with planning tools.
+
+- Create GitHub repository
+- Add README.md and .gitignore (Python)
+- Create project board (To Do, In Progress, Done)
+- Set up milestones for each phase
+- Add this issue list to GitHub Issues",2 - Git & GitHub
+Start Solving Easy DSA Problems,"Practice common algorithm problems.
+
+- Arrays and Strings
+- Hash Maps and Sets
+- Linked Lists
+- Sorting Algorithms",3 - Data Structures
+Solve Medium-Level Problems,"Apply problem-solving strategies with harder challenges.
+
+- 5 Leetcode medium problems
+- Practice with recursion
+- Practice with Big-O analysis",3 - Data Structures
+Learn SQL Basics,"Understand how to query and manage relational databases.
+
+- CRUD operations
+- Joins, Filtering, Sorting
+- Practice with sample article DB",4 - Databases
+Set Up PostgreSQL Locally,"Install and configure PostgreSQL for DXTS.
+
+- Install PostgreSQL
+- Create DXTS database
+- Connect with Django backend",4 - Databases
+Set Up Django Project,"Create and configure the Django backend for DXTS.
+
+- Install Django
+- Start project in `backend/`
+- Create app for news articles
+- Add Django to GitHub",5 - Backend (Django)
+Create User & Article Models,"Define the core models for DXTS.
+
+- User model (basic or custom)
+- Article model (title, content, tags, author)
+- Migrate models to database
+- Create sample data in Django Admin",5 - Backend (Django)
+Set Up Django REST API,"Build APIs for accessing news articles and users.
+
+- Install Django REST Framework
+- Create serializers for Article and User
+- Set up basic API views and routes",5 - Backend (Django)
+Add User Auth (Token or JWT),"Allow users to log in and sign up securely.
+
+- Add Django Rest Auth or JWT
+- Create login and signup API endpoints
+- Add permissions to articles",5 - Backend (Django)
+Set Up React Project,"Start building the DXTS frontend.
+
+- Use `create-react-app` or Vite
+- Set up folder structure inside `frontend/`
+- Push to GitHub",6 - Frontend (React)
+Create Feed & Article Components,"Display articles from the backend API.
+
+- Create feed view with article cards
+- Fetch data using Axios or Fetch API
+- Display loading and error states",6 - Frontend (React)
+Add Login & Signup Forms,"Add frontend UI for user auth.
+
+- Create login form component
+- Create signup form
+- Connect to backend auth endpoints",6 - Frontend (React)
+Style with TailwindCSS,"Style the DXTS frontend using Tailwind.
+
+- Install TailwindCSS
+- Create reusable components (Navbar, Button, Card)
+- Apply responsive layout",6 - Frontend (React)
+Connect Frontend to Backend API,"Wire up the full-stack flow.
+
+- Fetch articles from Django API
+- Post new articles from React
+- Handle user login/logout and tokens",7 - Full-Stack Integration
+Add Commenting & Likes (Optional),"Enhance user interaction.
+
+- Create comment model and endpoint
+- Like/unlike articles
+- Show totals on frontend",7 - Full-Stack Integration
+Deploy Django Backend (Render / Railway),"Go live with your backend.
+
+- Create Render or Railway account
+- Add environment variables
+- Push backend to live",8 - Deployment & DevOps
+Deploy React Frontend (Netlify / Vercel),"Go live with your frontend.
+
+- Push frontend to Vercel or Netlify
+- Link to backend API
+- Test live version",8 - Deployment & DevOps
